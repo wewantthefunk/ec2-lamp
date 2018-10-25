@@ -1,0 +1,7 @@
+---
+# here we go
+- hosts: all
+  become: yes
+  roles:
+    - apache
+    - php
